@@ -4,8 +4,8 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Andy</title>
-    <link>http://cddchina.coding.me/</link>
-    <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
+    <link>http://www.chendongdong.net/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>每一个不曾起舞的日子，都是对生命的辜负</description>
     <pubDate>Sat, 25 Nov 2017 16:45:26 GMT</pubDate>
@@ -13,28 +13,28 @@
     
     <item>
       <title>路漫漫其修远兮</title>
-      <link>http://cddchina.coding.me/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/</link>
-      <guid>http://cddchina.coding.me/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/</guid>
+      <link>http://www.chendongdong.net/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/</link>
+      <guid>http://www.chendongdong.net/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/</guid>
       <pubDate>Sat, 25 Nov 2017 22:10:11 GMT</pubDate>
       <description>
       
         
         
-          &lt;img src=&quot;/blog/2017/11/26/路漫漫其修远兮/road.png&quot; title=&quot;路漫漫其修远兮&quot;&gt; 
-&lt;p&gt;人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是
+          &lt;img src=&quot;/2017/11/26/路漫漫其修远兮/road.png&quot; title=&quot;路漫漫其修远兮&quot;&gt; 
+&lt;p&gt;人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是靠大把大把
         
       
       </description>
       
-      <content:encoded><![CDATA[<img src="/blog/2017/11/26/路漫漫其修远兮/road.png" title="路漫漫其修远兮"> <p>人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是靠大把大把的时间去做一件自己想做的事情，都是靠平时的积累更多一些，也许正是你每天带着疲惫的身躯回到家里打一局游戏放松放松的时间，别人已经成功地搭建了一个新的项目。呵呵 码农的世界充满了苦与乐。</p><p>路就在脚下！</p>]]></content:encoded>
+      <content:encoded><![CDATA[<img src="/2017/11/26/路漫漫其修远兮/road.png" title="路漫漫其修远兮"> <p>人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是靠大把大把的时间去做一件自己想做的事情，都是靠平时的积累更多一些，也许正是你每天带着疲惫的身躯回到家里打一局游戏放松放松的时间，别人已经成功地搭建了一个新的项目。呵呵 码农的世界充满了苦与乐。</p><p>路就在脚下！</p>]]></content:encoded>
       
-      <comments>http://cddchina.coding.me/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/#disqus_thread</comments>
+      <comments>http://www.chendongdong.net/2017/11/26/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://cddchina.coding.me/2017/11/24/hello-world/</link>
-      <guid>http://cddchina.coding.me/2017/11/24/hello-world/</guid>
+      <link>http://www.chendongdong.net/2017/11/24/hello-world/</link>
+      <guid>http://www.chendongdong.net/2017/11/24/hello-world/</guid>
       <pubDate>Fri, 24 Nov 2017 12:53:40 GMT</pubDate>
       <description>
       
@@ -47,7 +47,7 @@
       
       <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content:encoded>
       
-      <comments>http://cddchina.coding.me/2017/11/24/hello-world/#disqus_thread</comments>
+      <comments>http://www.chendongdong.net/2017/11/24/hello-world/#disqus_thread</comments>
     </item>
     
   </channel>
