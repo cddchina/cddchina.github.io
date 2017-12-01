@@ -437,22 +437,17 @@
       
         
           
-            <h1 id="Hexo中一些常用总结"><a href="#Hexo中一些常用总结" class="headerlink" title="Hexo中一些常用总结"></a>Hexo中一些常用总结</h1><p><strong>1. 添加图片</strong><br>关于资源的加载最好是放置在云服务器上根据链接去访问。<br>例如用<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>、阿里云等。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![“图片描述”](图片地址)</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p><strong>2. 添加音视频</strong><br>生成外部链接后直接添加：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe   </span><br><span class="line">    height=<span class="number">498</span> width=<span class="number">510</span>   </span><br><span class="line">    src=<span class="string">"http://player.youku.com/embed/XNjcyMDU4Njg0"</span>   </span><br><span class="line">    frameborder=<span class="number">0</span> allowfullscreen&gt;  </span><br><span class="line">&lt;<span class="regexp">/iframe&gt;</span></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p><strong>3. 关于博文中添加空格</strong><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">半方大的空白&amp;ensp;或&amp;#8194;</span><br><span class="line">全方大的空白&amp;emsp;或&amp;#8195;</span><br><span class="line">不断行的空白格&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure></p>
-<p><strong>4. 关于博文中字体和颜色字号</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">"黑体"</span>&gt;我是黑体字&lt;<span class="regexp">/font&gt;</span></span><br><span class="line"><span class="regexp">&lt;font face="微软雅黑"&gt;我是微软雅黑&lt;/</span>font&gt;</span><br><span class="line">&lt;font face=<span class="string">"STCAIYUN"</span>&gt;我是华文彩云&lt;<span class="regexp">/font&gt;</span></span><br><span class="line"><span class="regexp">&lt;font color=#0099ff size=12 face="黑体"&gt;黑体&lt;/</span>font&gt;</span><br><span class="line">&lt;font color=#00ffff size=3&gt;null&lt;/font&gt;</span><br><span class="line">&lt;font color=gray size=<span class="number">5</span>&gt;gray&lt;<span class="regexp">/font&gt;</span></span><br></pre></td></tr></table></figure></p>
-<hr>
-<p><strong>5. 关于博文中背景色设置</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=red&gt;背景色是：red&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p><strong>6. 添加algolia搜索</strong><br>algolia搜索感觉还是一款高逼格的检索,<a href="https://www.algolia.com/" target="_blank" rel="noopener">algolia官网</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo algolia</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p><strong>7. 关于博文中添加评论</strong><br>目前的评论还是liveRe展示的效果比较好些，<a href="https://livere.com/" target="_blank" rel="noopener">liveRe官网</a></p>
-<hr>
-<p><strong>*. 常用的命令</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page categories</span><br><span class="line">hexo <span class="keyword">new</span> page tags</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-admin --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-feed --save</span><br><span class="line">npm install hexo-generator-search --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line"></span><br><span class="line">#字数统计</span><br><span class="line">npm install hexo-wordcount --save</span><br><span class="line">#检索</span><br><span class="line">npm install hexo-algolia@<span class="number">0.2</span><span class="number">.0</span> --save</span><br><span class="line">hexo algolia</span><br></pre></td></tr></table></figure>
-          
+          Hexo中一些常用总结1. 添加图片关于资源的加载最好是放置在云服务器上根据链接去访问。例如用七牛云、阿里云等。1![“图片描述”](图片地址)
+
+2. 添加音视频生成外部链接后直接添加：12345&lt;iframe       height=498 width=510       src="ht
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/02/Hexo常用总结/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -634,12 +629,15 @@
       
         
           
-            <p><img src="http://p07uldlix.bkt.clouddn.com/20171124road.png" alt="“路漫漫其修远兮”"><br>人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是靠大把大把的时间去做一件自己想做的事情，都是靠平时的积累更多一些，也许正是你每天带着疲惫的身躯回到家里打一局游戏放松放松的时间，别人已经成功地搭建了一个新的项目。呵呵 码农的世界充满了苦与乐。</p>
-<p>路就在脚下！</p>
-<p>Idina Menze和Caleb Hyles激情对唱：  </p>
-<iframe height="498" width="510" src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder="0" allowfullscreen><br></iframe> 
-
-          
+          人生只有走出的辉煌，在忙忙碌碌的日子中，不忘初心，寻找最初的梦想。用自己的行动去实现它，即使道路坎坷抽不出时间去实现自己的理想。其实又有多少的成功是靠大把大把的时间去做一件自己想做的事情，都是靠平时的积累更多一些，也许正是你每天带着疲惫的身躯回到家里打一局游戏放松放松的时间，别人已经成功地搭建了一个
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/11/26/路漫漫其修远兮/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -821,17 +819,15 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/11/24/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
