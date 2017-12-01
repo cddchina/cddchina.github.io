@@ -302,6 +302,203 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.chendongdong.net/2017/12/02/Hexo常用总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cddchina">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/12/02/Hexo常用总结/" itemprop="url">Hexo常用总结</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-01T23:58:23Z">
+                2017-12-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/总结/" itemprop="url" rel="index">
+                    <span itemprop="name">总结</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/12/02/Hexo常用总结/" class="leancloud_visitors" data-flag-title="Hexo常用总结">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  397 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Hexo中一些常用总结"><a href="#Hexo中一些常用总结" class="headerlink" title="Hexo中一些常用总结"></a>Hexo中一些常用总结</h1><p><strong>1. 添加图片</strong><br>关于资源的加载最好是放置在云服务器上根据链接去访问。<br>例如用<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>、阿里云等。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![“图片描述”](图片地址)</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>2. 添加音视频</strong><br>生成外部链接后直接添加：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe   </span><br><span class="line">    height=<span class="number">498</span> width=<span class="number">510</span>   </span><br><span class="line">    src=<span class="string">"http://player.youku.com/embed/XNjcyMDU4Njg0"</span>   </span><br><span class="line">    frameborder=<span class="number">0</span> allowfullscreen&gt;  </span><br><span class="line">&lt;<span class="regexp">/iframe&gt;</span></span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>3. 关于博文中添加空格</strong><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">半方大的空白&amp;ensp;或&amp;#8194;</span><br><span class="line">全方大的空白&amp;emsp;或&amp;#8195;</span><br><span class="line">不断行的空白格&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure></p>
+<p><strong>4. 关于博文中字体和颜色字号</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">"黑体"</span>&gt;我是黑体字&lt;<span class="regexp">/font&gt;</span></span><br><span class="line"><span class="regexp">&lt;font face="微软雅黑"&gt;我是微软雅黑&lt;/</span>font&gt;</span><br><span class="line">&lt;font face=<span class="string">"STCAIYUN"</span>&gt;我是华文彩云&lt;<span class="regexp">/font&gt;</span></span><br><span class="line"><span class="regexp">&lt;font color=#0099ff size=12 face="黑体"&gt;黑体&lt;/</span>font&gt;</span><br><span class="line">&lt;font color=#00ffff size=3&gt;null&lt;/font&gt;</span><br><span class="line">&lt;font color=gray size=<span class="number">5</span>&gt;gray&lt;<span class="regexp">/font&gt;</span></span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>5. 关于博文中背景色设置</strong><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=red&gt;背景色是：red&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>6. 添加algolia搜索</strong><br>algolia搜索感觉还是一款高逼格的检索,<a href="https://www.algolia.com/" target="_blank" rel="noopener">algolia官网</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo algolia</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>7. 关于博文中添加评论</strong><br>目前的评论还是liveRe展示的效果比较好些，<a href="https://livere.com/" target="_blank" rel="noopener">liveRe官网</a></p>
+<hr>
+<p><strong>*. 常用的命令</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page categories</span><br><span class="line">hexo <span class="keyword">new</span> page tags</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-admin --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-feed --save</span><br><span class="line">npm install hexo-generator-search --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line"></span><br><span class="line">#字数统计</span><br><span class="line">npm install hexo-wordcount --save</span><br><span class="line">#检索</span><br><span class="line">npm install hexo-algolia@<span class="number">0.2</span><span class="number">.0</span> --save</span><br><span class="line">hexo algolia</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.chendongdong.net/2017/11/26/路漫漫其修远兮/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -724,7 +921,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -735,7 +932,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -746,7 +943,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
